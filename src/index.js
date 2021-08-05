@@ -1,16 +1,18 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
-
-// const container = document.getElementById('app');
-
-// container.appendChild(element);
-
+// Es análogo a 'createElement'
 import React from 'react';
+// Es análogo a appendChild
 import ReactDOM from 'react-dom';
 
-const element = <h1>Hello, Platzi Badges!</h1>;
+//CSS
+import 'bootstrap/dist/css/bootstrap.css';
+import './global.css';
 
+//Components
+//import BadgeFunction from './components/Badge';
+import App from './components/App';
+
+//Container
 const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+ReactDOM.render(<App />, container);

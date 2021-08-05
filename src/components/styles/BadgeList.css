@@ -1,0 +1,52 @@
+/* Girando la lista para que se muestre el ultimo que se ha creado el primero */
+.Badge_list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.BadgesList__item {
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  height: 100px;
+  margin: 10px 0;
+  display: flex;
+}
+
+.BadgesList__avatar {
+  border-radius: 50%;
+  margin: 8px 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.BadgeList__name {
+  font-weight: bold;
+  margin: 5px 5px 0 0px;
+}
+
+.BadgeList__twitter {
+  /* background-image: url('../../images/twitter-logo.png'); */
+  color: #00a2f5;
+  margin: 0;
+}
+
+.BadgeList__img {
+  width: 50px;
+  height: 50px;
+}
+
+.BadgeList__icon-modifier {
+  margin-left: auto;
+  align-self: center;
+}
+
+.BadgeList__icon-modifier img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.BadgeList__text {
+  display: flex;
+}

@@ -1,0 +1,39 @@
+.ListRickMorty {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.BadgesRickMorty__item {
+  background: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  height: 100px;
+  width: 60%;
+  margin: 10px 0;
+  display: flex;
+}
+
+.BadgesRickMorty__avatar {
+  border-radius: 50%;
+  margin: 8px 15px;
+  width: 80px;
+  height: 80px;
+}
+
+.BadgeRickMorty__name {
+  font-weight: bold;
+  margin: 5px 5px 0 0px;
+}
+
+.BadgeRickMorty__twitter {
+  /* background-image: url('../../images/twitter-logo.png'); */
+  color: #00a2f5;
+  margin: 0;
+}
+
+.buttonRickMorty {
+  width: 30%;
+  margin: 10px 0;
+}

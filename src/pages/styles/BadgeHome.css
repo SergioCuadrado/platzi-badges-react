@@ -1,0 +1,22 @@
+.Home {
+  background: url('../../images/stars.svg'), #1b1b25;
+  background-repeat: repeat;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.col-text {
+  justify-self: center;
+  color: #fff;
+}
+
+.col-text h1 {
+  padding: 15px 0;
+}
